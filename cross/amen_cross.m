@@ -68,7 +68,7 @@ end;
 vars = varargin;
 
 y = [];
-nswp = 20;
+nswp = 100;
 zrank = 5;
 zrank2 = [];
 kickrank = 2;
@@ -76,7 +76,7 @@ tol_exit = tol;
 verb = 1;
 vec = false;
 exitdir=1;
-max_err_jumps = 2;
+max_err_jumps = 100;
 trunc_method = 'cross';
 % trunc_method = 'svd';
 
@@ -959,6 +959,7 @@ while (swp<=nswp)
             end;
             if (err_raise_cnt>=max_err_jumps)
                 fprintf('=amen_cross= Will exit since the error stopped decreasing\n');
+                [err_raise_cnt,max_err_jumps]
             end;
 %             if (dir==exitdir)
 %                 break;
