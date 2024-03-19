@@ -1,14 +1,19 @@
 function y=vie_green(x)
     global wavelen ppw
-    d=size(x,2)/3;
+    d=max(size(x,2),size(x,1))/3;
     ds = wavelen/ppw;
     waven=2*pi/wavelen;
     % ds=0.01;
-    zdist=0;
+    zdist=2;
 
     xxs=x(1:d);
     yys=x(d+1:2*d);
     zzs=x(2*d+1:3*d);
+
+%     xxs=x(1:3:3*d);
+%     yys=x(2:3:3*d);
+%     zzs=x(3:3:3*d);
+
     
     xs=0;
     ys=0;
@@ -28,8 +33,8 @@ function y=vie_green(x)
     ss = [xs*ds, ys*ds, zs*ds+zdist];
     r =sqrt(sum((oo-ss).^2));
     if(r~=0)
-        y=1/r;  % static kernel
-        % y = exp(-1i*waven*r)/r; % high-frequency kernel
+%         y=1/r;  % static kernel
+        y = exp(-1i*waven*r)/r; % high-frequency kernel
     else
         y=0;
     end

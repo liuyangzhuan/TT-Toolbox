@@ -68,15 +68,16 @@ end;
 vars = varargin;
 
 y = [];
-nswp = 100;
+nswp = 500;
 zrank = 5;
 zrank2 = [];
 kickrank = 2;
 tol_exit = tol;
+tol_truncate = tol/100;
 verb = 1;
 vec = false;
 exitdir=1;
-max_err_jumps = 100;
+max_err_jumps = 300;
 trunc_method = 'cross';
 % trunc_method = 'svd';
 
@@ -410,12 +411,12 @@ while (swp<=nswp)
         if (strcmp(trunc_method, 'svd'))
             [u,s,v]=svd(cry, 'econ');
             s = diag(s);
-            r = my_chop2(s, norm(s)*tol/sqrt(d));
+            r = my_chop2(s, norm(s)*tol_truncate/sqrt(d));
             u = u(:,1:r);
             v = diag(s(1:r))*v(:,1:r)';
         else
             % Full-pivot cross should be more accurate
-            [u,v]=localcross(cry, tol/sqrt(d));
+            [u,v]=localcross(cry, tol_truncate/sqrt(d));
 %             minsz = min(ry(i)*n(i), ry(i+1)*b);
 %             u = zeros(ry(i)*n(i), minsz);
 %             v = zeros(minsz, ry(i+1)*b);
@@ -653,12 +654,12 @@ while (swp<=nswp)
         if (strcmp(trunc_method, 'svd'))
             [u,s,v]=svd(cry, 'econ');
             s = diag(s);
-            r = my_chop2(s, norm(s)*tol/sqrt(d));
+            r = my_chop2(s, norm(s)*tol_truncate/sqrt(d));
             u = u(:,1:r)*diag(s(1:r));
             v = v(:,1:r)';
         else
             % Full-pivot cross should be more accurate
-            [v,u]=localcross(cry.', tol/sqrt(d)); % we need orthogonal v
+            [v,u]=localcross(cry.', tol_truncate/sqrt(d)); % we need orthogonal v
             v = v.';
             u = u.';
 %             minsz = min(b*ry(i), n(i)*ry(i+1));
