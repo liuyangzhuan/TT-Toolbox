@@ -29,14 +29,27 @@
 =amen_cross= swp=27, max_dx=5.246e-07, max_rank=55, #ifun_evals=1158745, #ffun_evals=0
 =amen_cross= swp=28, max_dx=4.684e-08, max_rank=55, #ifun_evals=1216705, #ffun_evals=0
 =amen_cross= swp=29, max_dx=3.464e-08, max_rank=55, #ifun_evals=1271581, #ffun_evals=0
-Elapsed time is 12.248675 seconds.
+time/rank/memory for the VIE operator:
+Elapsed time is 11.997692 seconds.
 
-maxrank =
+maxrank_A =
 
     48
 
 
-memory =
+memory_A =
 
    5.8067e-04
+
+time/rank/memory for the matvec:
+Elapsed time is 0.652442 seconds.
+
+maxrank_c =
+
+        4992
+
+
+memory_c =
+
+    2.0185
 
