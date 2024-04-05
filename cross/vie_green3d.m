@@ -10,9 +10,9 @@ function y=vie_green3d(x)
     yys=x(d+1:2*d);
     zzs=x(2*d+1:3*d);
 
-%     xxs=x(1:3:3*d);
-%     yys=x(2:3:3*d);
-%     zzs=x(3:3:3*d);
+    % xxs=x(1:3:3*d);
+    % yys=x(2:3:3*d);
+    % zzs=x(3:3:3*d);
 
     
     xs=0;
@@ -22,12 +22,23 @@ function y=vie_green3d(x)
     yo=0;
     zo=0;    
     for ii=1:d
+      % normal ordering   
       xo = xo + mod(xxs(ii)-1,2)*2^(ii-1);  
       xs = xs + floor((xxs(ii)-1)/2)*2^(ii-1);  
       yo = yo + mod(yys(ii)-1,2)*2^(ii-1);  
       ys = ys + floor((yys(ii)-1)/2)*2^(ii-1);  
       zo = zo + mod(zzs(ii)-1,2)*2^(ii-1);  
-      zs = zs + floor((zzs(ii)-1)/2)*2^(ii-1);              
+      zs = zs + floor((zzs(ii)-1)/2)*2^(ii-1);    
+
+    %   % bit-reversal ordering 
+    %   xo = xo + mod(xxs(ii)-1,2)*2^(ii-1);  
+    %   xs = xs + floor((xxs(ii)-1)/2)*2^(d-ii);  
+    %   yo = yo + mod(yys(ii)-1,2)*2^(ii-1);  
+    %   ys = ys + floor((yys(ii)-1)/2)*2^(d-ii);  
+    %   zo = zo + mod(zzs(ii)-1,2)*2^(ii-1);  
+    %   zs = zs + floor((zzs(ii)-1)/2)*2^(d-ii);  
+
+
     end
     oo = [xo*ds, yo*ds, zo*ds];
     ss = [xs*ds, ys*ds, zs*ds+zdist];

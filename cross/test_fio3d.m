@@ -1,22 +1,19 @@
 
 clear all
-fun=@vie_green3d;
-global wavelen ppw
+fun=@fio3d;
+global N
 testmatvec=1;
 % wavelens = [0.001953125 0.00390625 0.0078125 0.015625 0.03125 0.0625 0.1250];
-wavelens = [0.0625];
-for ii = 1:size(wavelens,2)
-wavelen=wavelens(ii);
-ppw=4.0;
-ds = wavelen/ppw;
-N=round(1/ds);
-outputfile=['QTT_VIE3D_admissible_N_',num2str(N),'.txt'];
+Ns = [32];
+for ii = 1:size(Ns,2)
+N=Ns(ii);
+outputfile=['QTT_FIO3D_sphere_N_',num2str(N),'.txt'];
 if exist(outputfile, 'file')==2
     delete(outputfile);
 end
 diary(outputfile) 
 disp(["N=",num2str(N)])
-tol=1e-2;
+tol=1e-3;
 % N=8192;
 s = log2(N);
 d=3*s;
@@ -25,7 +22,7 @@ inp(:)=4;
 tic;
 [y]=amen_cross(inp, fun, tol);
 % tt=dmrg_cross(d,inp,fun,tol);
-disp('time/rank/memory for the VIE operator:')
+disp('time/rank/memory for the FIO operator:')
 toc
 y1=round(y,tol);
 % norm(y1-y)/norm(y)
