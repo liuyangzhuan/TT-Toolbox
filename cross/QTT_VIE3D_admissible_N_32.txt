@@ -1,0 +1,49 @@
+    "N="    "32"
+
+=amen_cross= swp=1, max_dx=4.438e+00, max_rank=4, #ifun_evals=3445, #ffun_evals=0
+=amen_cross= swp=2, max_dx=7.279e+00, max_rank=6, #ifun_evals=10105, #ffun_evals=0
+=amen_cross= swp=3, max_dx=1.062e+01, max_rank=8, #ifun_evals=18601, #ffun_evals=0
+=amen_cross= swp=4, max_dx=1.064e+01, max_rank=10, #ifun_evals=29249, #ffun_evals=0
+=amen_cross= swp=5, max_dx=9.343e+00, max_rank=12, #ifun_evals=42065, #ffun_evals=0
+=amen_cross= swp=6, max_dx=6.979e+00, max_rank=14, #ifun_evals=56713, #ffun_evals=0
+=amen_cross= swp=7, max_dx=9.854e+00, max_rank=16, #ifun_evals=72941, #ffun_evals=0
+=amen_cross= swp=8, max_dx=7.327e+00, max_rank=18, #ifun_evals=90713, #ffun_evals=0
+=amen_cross= swp=9, max_dx=5.582e+00, max_rank=20, #ifun_evals=109825, #ffun_evals=0
+=amen_cross= swp=10, max_dx=3.146e+00, max_rank=22, #ifun_evals=130285, #ffun_evals=0
+=amen_cross= swp=11, max_dx=3.095e+00, max_rank=24, #ifun_evals=152197, #ffun_evals=0
+=amen_cross= swp=12, max_dx=1.814e+00, max_rank=26, #ifun_evals=175809, #ffun_evals=0
+=amen_cross= swp=13, max_dx=8.228e-01, max_rank=28, #ifun_evals=201173, #ffun_evals=0
+=amen_cross= swp=14, max_dx=6.362e-01, max_rank=30, #ifun_evals=228081, #ffun_evals=0
+=amen_cross= swp=15, max_dx=3.785e-01, max_rank=32, #ifun_evals=256229, #ffun_evals=0
+=amen_cross= swp=16, max_dx=2.147e-01, max_rank=34, #ifun_evals=285945, #ffun_evals=0
+=amen_cross= swp=17, max_dx=1.787e-01, max_rank=36, #ifun_evals=317217, #ffun_evals=0
+=amen_cross= swp=18, max_dx=1.041e-01, max_rank=38, #ifun_evals=349673, #ffun_evals=0
+=amen_cross= swp=19, max_dx=7.694e-02, max_rank=40, #ifun_evals=383545, #ffun_evals=0
+=amen_cross= swp=20, max_dx=4.408e-02, max_rank=42, #ifun_evals=418389, #ffun_evals=0
+=amen_cross= swp=21, max_dx=1.698e-02, max_rank=44, #ifun_evals=454385, #ffun_evals=0
+=amen_cross= swp=22, max_dx=9.979e-03, max_rank=46, #ifun_evals=491373, #ffun_evals=0
+=amen_cross= swp=23, max_dx=5.541e-03, max_rank=46, #ifun_evals=516573, #ffun_evals=0
+time/rank/memory for the VIE operator:
+Elapsed time is 7.737315 seconds.
+
+maxrank_A =
+
+    27
+
+
+memory_A =
+
+   1.0496e-04
+
+time/rank/memory for the matvec:
+Elapsed time is 0.207857 seconds.
+
+maxrank_c =
+
+        3456
+
+
+memory_c =
+
+    0.4443
+

@@ -1,52 +1,52 @@
     "N="    "64"
 
-=amen_cross= swp=1, max_dx=3.573e+00, max_rank=4, #ifun_evals=4229, #ffun_evals=0
-=amen_cross= swp=2, max_dx=1.194e+01, max_rank=6, #ifun_evals=12425, #ffun_evals=0
-=amen_cross= swp=3, max_dx=1.273e+01, max_rank=8, #ifun_evals=22933, #ffun_evals=0
-=amen_cross= swp=4, max_dx=1.162e+01, max_rank=10, #ifun_evals=36105, #ffun_evals=0
-=amen_cross= swp=5, max_dx=1.510e+01, max_rank=12, #ifun_evals=52053, #ffun_evals=0
-=amen_cross= swp=6, max_dx=1.053e+01, max_rank=14, #ifun_evals=71049, #ffun_evals=0
-=amen_cross= swp=7, max_dx=1.864e+01, max_rank=16, #ifun_evals=93245, #ffun_evals=0
-=amen_cross= swp=8, max_dx=1.921e+01, max_rank=18, #ifun_evals=118333, #ffun_evals=0
-=amen_cross= swp=9, max_dx=2.827e+01, max_rank=20, #ifun_evals=146037, #ffun_evals=0
-=amen_cross= swp=10, max_dx=1.966e+01, max_rank=22, #ifun_evals=176273, #ffun_evals=0
-=amen_cross= swp=11, max_dx=2.862e+01, max_rank=24, #ifun_evals=208861, #ffun_evals=0
-=amen_cross= swp=12, max_dx=2.169e+01, max_rank=26, #ifun_evals=243697, #ffun_evals=0
-=amen_cross= swp=13, max_dx=2.849e+01, max_rank=28, #ifun_evals=281105, #ffun_evals=0
-=amen_cross= swp=14, max_dx=2.223e+01, max_rank=30, #ifun_evals=321181, #ffun_evals=0
-=amen_cross= swp=15, max_dx=2.244e+01, max_rank=32, #ifun_evals=364017, #ffun_evals=0
-=amen_cross= swp=16, max_dx=1.716e+01, max_rank=34, #ifun_evals=409465, #ffun_evals=0
-=amen_cross= swp=17, max_dx=2.234e+01, max_rank=36, #ifun_evals=457277, #ffun_evals=0
-=amen_cross= swp=18, max_dx=1.906e+01, max_rank=38, #ifun_evals=508133, #ffun_evals=0
-=amen_cross= swp=19, max_dx=1.610e+01, max_rank=40, #ifun_evals=561853, #ffun_evals=0
-=amen_cross= swp=20, max_dx=1.254e+01, max_rank=42, #ifun_evals=618121, #ffun_evals=0
-=amen_cross= swp=21, max_dx=8.494e+00, max_rank=44, #ifun_evals=677081, #ffun_evals=0
-=amen_cross= swp=22, max_dx=7.776e+00, max_rank=46, #ifun_evals=739253, #ffun_evals=0
-=amen_cross= swp=23, max_dx=4.226e+00, max_rank=48, #ifun_evals=804045, #ffun_evals=0
-=amen_cross= swp=24, max_dx=2.329e+00, max_rank=50, #ifun_evals=871485, #ffun_evals=0
-=amen_cross= swp=25, max_dx=2.772e+00, max_rank=52, #ifun_evals=941377, #ffun_evals=0
-=amen_cross= swp=26, max_dx=1.479e+00, max_rank=54, #ifun_evals=1013569, #ffun_evals=0
-=amen_cross= swp=27, max_dx=1.068e+00, max_rank=56, #ifun_evals=1088549, #ffun_evals=0
-=amen_cross= swp=28, max_dx=4.755e-01, max_rank=58, #ifun_evals=1166025, #ffun_evals=0
-=amen_cross= swp=29, max_dx=3.825e-01, max_rank=60, #ifun_evals=1246337, #ffun_evals=0
-=amen_cross= swp=30, max_dx=3.001e-01, max_rank=62, #ifun_evals=1329145, #ffun_evals=0
-=amen_cross= swp=31, max_dx=3.187e-01, max_rank=64, #ifun_evals=1414657, #ffun_evals=0
-=amen_cross= swp=32, max_dx=2.392e-01, max_rank=66, #ifun_evals=1503317, #ffun_evals=0
-=amen_cross= swp=33, max_dx=1.407e-01, max_rank=68, #ifun_evals=1595685, #ffun_evals=0
-=amen_cross= swp=34, max_dx=7.812e-02, max_rank=70, #ifun_evals=1691249, #ffun_evals=0
-=amen_cross= swp=35, max_dx=7.111e-02, max_rank=72, #ifun_evals=1789837, #ffun_evals=0
-=amen_cross= swp=36, max_dx=6.426e-02, max_rank=74, #ifun_evals=1891317, #ffun_evals=0
-=amen_cross= swp=37, max_dx=4.002e-02, max_rank=76, #ifun_evals=1995301, #ffun_evals=0
-=amen_cross= swp=38, max_dx=3.424e-02, max_rank=78, #ifun_evals=2102269, #ffun_evals=0
-=amen_cross= swp=39, max_dx=3.073e-02, max_rank=80, #ifun_evals=2211201, #ffun_evals=0
-=amen_cross= swp=40, max_dx=2.011e-02, max_rank=82, #ifun_evals=2322521, #ffun_evals=0
-=amen_cross= swp=41, max_dx=2.145e-02, max_rank=84, #ifun_evals=2437073, #ffun_evals=0
-=amen_cross= swp=42, max_dx=1.335e-02, max_rank=86, #ifun_evals=2555033, #ffun_evals=0
-=amen_cross= swp=43, max_dx=1.038e-02, max_rank=88, #ifun_evals=2675405, #ffun_evals=0
-=amen_cross= swp=44, max_dx=9.687e-03, max_rank=90, #ifun_evals=2798273, #ffun_evals=0
-=amen_cross= swp=45, max_dx=6.722e-03, max_rank=90, #ifun_evals=2900417, #ffun_evals=0
+=amen_cross= swp=1, max_dx=2.716e+00, max_rank=4, #ifun_evals=4289, #ffun_evals=0
+=amen_cross= swp=2, max_dx=8.826e+00, max_rank=6, #ifun_evals=12637, #ffun_evals=0
+=amen_cross= swp=3, max_dx=9.718e+00, max_rank=8, #ifun_evals=23317, #ffun_evals=0
+=amen_cross= swp=4, max_dx=1.272e+01, max_rank=10, #ifun_evals=36693, #ffun_evals=0
+=amen_cross= swp=5, max_dx=1.395e+01, max_rank=12, #ifun_evals=52941, #ffun_evals=0
+=amen_cross= swp=6, max_dx=1.678e+01, max_rank=14, #ifun_evals=72173, #ffun_evals=0
+=amen_cross= swp=7, max_dx=2.049e+01, max_rank=16, #ifun_evals=94505, #ffun_evals=0
+=amen_cross= swp=8, max_dx=2.156e+01, max_rank=18, #ifun_evals=119933, #ffun_evals=0
+=amen_cross= swp=9, max_dx=2.581e+01, max_rank=20, #ifun_evals=147941, #ffun_evals=0
+=amen_cross= swp=10, max_dx=2.236e+01, max_rank=22, #ifun_evals=178265, #ffun_evals=0
+=amen_cross= swp=11, max_dx=2.542e+01, max_rank=24, #ifun_evals=211009, #ffun_evals=0
+=amen_cross= swp=12, max_dx=2.447e+01, max_rank=26, #ifun_evals=246517, #ffun_evals=0
+=amen_cross= swp=13, max_dx=3.517e+01, max_rank=28, #ifun_evals=284569, #ffun_evals=0
+=amen_cross= swp=14, max_dx=2.275e+01, max_rank=30, #ifun_evals=325137, #ffun_evals=0
+=amen_cross= swp=15, max_dx=2.789e+01, max_rank=32, #ifun_evals=368433, #ffun_evals=0
+=amen_cross= swp=16, max_dx=1.978e+01, max_rank=34, #ifun_evals=414241, #ffun_evals=0
+=amen_cross= swp=17, max_dx=2.461e+01, max_rank=36, #ifun_evals=462505, #ffun_evals=0
+=amen_cross= swp=18, max_dx=1.335e+01, max_rank=38, #ifun_evals=513653, #ffun_evals=0
+=amen_cross= swp=19, max_dx=1.842e+01, max_rank=40, #ifun_evals=567609, #ffun_evals=0
+=amen_cross= swp=20, max_dx=9.886e+00, max_rank=42, #ifun_evals=624565, #ffun_evals=0
+=amen_cross= swp=21, max_dx=1.114e+01, max_rank=44, #ifun_evals=684345, #ffun_evals=0
+=amen_cross= swp=22, max_dx=5.823e+00, max_rank=46, #ifun_evals=747061, #ffun_evals=0
+=amen_cross= swp=23, max_dx=6.999e+00, max_rank=48, #ifun_evals=812185, #ffun_evals=0
+=amen_cross= swp=24, max_dx=2.333e+00, max_rank=50, #ifun_evals=879673, #ffun_evals=0
+=amen_cross= swp=25, max_dx=1.495e+00, max_rank=52, #ifun_evals=949913, #ffun_evals=0
+=amen_cross= swp=26, max_dx=1.196e+00, max_rank=54, #ifun_evals=1022921, #ffun_evals=0
+=amen_cross= swp=27, max_dx=9.860e-01, max_rank=56, #ifun_evals=1098381, #ffun_evals=0
+=amen_cross= swp=28, max_dx=6.216e-01, max_rank=58, #ifun_evals=1176333, #ffun_evals=0
+=amen_cross= swp=29, max_dx=3.648e-01, max_rank=60, #ifun_evals=1257413, #ffun_evals=0
+=amen_cross= swp=30, max_dx=3.233e-01, max_rank=62, #ifun_evals=1341229, #ffun_evals=0
+=amen_cross= swp=31, max_dx=2.427e-01, max_rank=64, #ifun_evals=1428005, #ffun_evals=0
+=amen_cross= swp=32, max_dx=1.683e-01, max_rank=66, #ifun_evals=1517561, #ffun_evals=0
+=amen_cross= swp=33, max_dx=1.094e-01, max_rank=68, #ifun_evals=1610153, #ffun_evals=0
+=amen_cross= swp=34, max_dx=7.968e-02, max_rank=70, #ifun_evals=1705641, #ffun_evals=0
+=amen_cross= swp=35, max_dx=6.386e-02, max_rank=72, #ifun_evals=1804293, #ffun_evals=0
+=amen_cross= swp=36, max_dx=6.069e-02, max_rank=74, #ifun_evals=1905953, #ffun_evals=0
+=amen_cross= swp=37, max_dx=5.175e-02, max_rank=76, #ifun_evals=2010325, #ffun_evals=0
+=amen_cross= swp=38, max_dx=3.891e-02, max_rank=78, #ifun_evals=2117589, #ffun_evals=0
+=amen_cross= swp=39, max_dx=3.426e-02, max_rank=80, #ifun_evals=2227289, #ffun_evals=0
+=amen_cross= swp=40, max_dx=2.563e-02, max_rank=82, #ifun_evals=2340089, #ffun_evals=0
+=amen_cross= swp=41, max_dx=1.867e-02, max_rank=84, #ifun_evals=2455349, #ffun_evals=0
+=amen_cross= swp=42, max_dx=1.459e-02, max_rank=86, #ifun_evals=2572981, #ffun_evals=0
+=amen_cross= swp=43, max_dx=1.107e-02, max_rank=88, #ifun_evals=2693605, #ffun_evals=0
+=amen_cross= swp=44, max_dx=8.006e-03, max_rank=90, #ifun_evals=2817153, #ffun_evals=0
+=amen_cross= swp=45, max_dx=8.159e-03, max_rank=90, #ifun_evals=2917533, #ffun_evals=0
 time/rank/memory for the VIE operator:
-Elapsed time is 25.600589 seconds.
+Elapsed time is 27.256987 seconds.
 
 maxrank_A =
 
@@ -58,14 +58,14 @@ memory_A =
    3.7120e-04
 
 time/rank/memory for the matvec:
-Elapsed time is 3.680667 seconds.
+Elapsed time is 3.533216 seconds.
 
 maxrank_c =
 
-       20582
+       20623
 
 
 memory_c =
 
-   14.2985
+   14.3233
 

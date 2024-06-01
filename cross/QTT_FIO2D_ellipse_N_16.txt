@@ -1,0 +1,73 @@
+    "N="    "16"
+
+=amen_cross= swp=1, max_dx=6.252e+00, max_rank=4, #ifun_evals=1569, #ffun_evals=0
+=amen_cross= swp=2, max_dx=1.110e+01, max_rank=6, #ifun_evals=4481, #ffun_evals=0
+=amen_cross= swp=3, max_dx=1.531e+01, max_rank=8, #ifun_evals=8137, #ffun_evals=0
+=amen_cross= swp=4, max_dx=1.986e+01, max_rank=10, #ifun_evals=12657, #ffun_evals=0
+=amen_cross= swp=5, max_dx=1.752e+01, max_rank=12, #ifun_evals=18169, #ffun_evals=0
+=amen_cross= swp=6, max_dx=2.087e+01, max_rank=14, #ifun_evals=24801, #ffun_evals=0
+=amen_cross= swp=7, max_dx=2.464e+01, max_rank=16, #ifun_evals=32681, #ffun_evals=0
+=amen_cross= swp=8, max_dx=2.591e+01, max_rank=18, #ifun_evals=41745, #ffun_evals=0
+=amen_cross= swp=9, max_dx=2.025e+01, max_rank=20, #ifun_evals=51865, #ffun_evals=0
+=amen_cross= swp=10, max_dx=2.044e+01, max_rank=22, #ifun_evals=63073, #ffun_evals=0
+=amen_cross= swp=11, max_dx=1.359e+01, max_rank=24, #ifun_evals=75433, #ffun_evals=0
+=amen_cross= swp=12, max_dx=1.562e+01, max_rank=26, #ifun_evals=89009, #ffun_evals=0
+=amen_cross= swp=13, max_dx=1.317e+01, max_rank=28, #ifun_evals=103865, #ffun_evals=0
+=amen_cross= swp=14, max_dx=1.139e+01, max_rank=30, #ifun_evals=120065, #ffun_evals=0
+=amen_cross= swp=15, max_dx=7.304e+00, max_rank=32, #ifun_evals=137673, #ffun_evals=0
+=amen_cross= swp=16, max_dx=7.148e+00, max_rank=34, #ifun_evals=156753, #ffun_evals=0
+=amen_cross= swp=17, max_dx=4.185e+00, max_rank=36, #ifun_evals=177369, #ffun_evals=0
+=amen_cross= swp=18, max_dx=3.606e+00, max_rank=38, #ifun_evals=199585, #ffun_evals=0
+=amen_cross= swp=19, max_dx=1.992e+00, max_rank=40, #ifun_evals=223465, #ffun_evals=0
+=amen_cross= swp=20, max_dx=1.812e+00, max_rank=42, #ifun_evals=249073, #ffun_evals=0
+=amen_cross= swp=21, max_dx=1.066e+00, max_rank=44, #ifun_evals=276473, #ffun_evals=0
+=amen_cross= swp=22, max_dx=7.382e-01, max_rank=46, #ifun_evals=305729, #ffun_evals=0
+=amen_cross= swp=23, max_dx=3.923e-01, max_rank=48, #ifun_evals=336905, #ffun_evals=0
+=amen_cross= swp=24, max_dx=5.082e-01, max_rank=50, #ifun_evals=370065, #ffun_evals=0
+=amen_cross= swp=25, max_dx=1.980e-01, max_rank=52, #ifun_evals=405273, #ffun_evals=0
+=amen_cross= swp=26, max_dx=2.210e-01, max_rank=54, #ifun_evals=442593, #ffun_evals=0
+=amen_cross= swp=27, max_dx=9.705e-02, max_rank=56, #ifun_evals=482089, #ffun_evals=0
+=amen_cross= swp=28, max_dx=1.346e-01, max_rank=58, #ifun_evals=523825, #ffun_evals=0
+=amen_cross= swp=29, max_dx=5.381e-02, max_rank=60, #ifun_evals=567865, #ffun_evals=0
+=amen_cross= swp=30, max_dx=4.008e-02, max_rank=62, #ifun_evals=614273, #ffun_evals=0
+=amen_cross= swp=31, max_dx=2.376e-02, max_rank=64, #ifun_evals=663113, #ffun_evals=0
+=amen_cross= swp=32, max_dx=2.004e-02, max_rank=66, #ifun_evals=713873, #ffun_evals=0
+=amen_cross= swp=33, max_dx=1.800e-02, max_rank=68, #ifun_evals=765849, #ffun_evals=0
+=amen_cross= swp=34, max_dx=1.577e-02, max_rank=70, #ifun_evals=818913, #ffun_evals=0
+=amen_cross= swp=35, max_dx=1.083e-02, max_rank=72, #ifun_evals=873065, #ffun_evals=0
+=amen_cross= swp=36, max_dx=7.541e-03, max_rank=74, #ifun_evals=928305, #ffun_evals=0
+=amen_cross= swp=37, max_dx=8.634e-03, max_rank=76, #ifun_evals=984633, #ffun_evals=0
+=amen_cross= swp=38, max_dx=4.764e-03, max_rank=78, #ifun_evals=1042049, #ffun_evals=0
+=amen_cross= swp=39, max_dx=5.053e-03, max_rank=80, #ifun_evals=1100553, #ffun_evals=0
+=amen_cross= swp=40, max_dx=4.063e-03, max_rank=82, #ifun_evals=1160145, #ffun_evals=0
+=amen_cross= swp=41, max_dx=4.361e-03, max_rank=84, #ifun_evals=1220825, #ffun_evals=0
+=amen_cross= swp=42, max_dx=3.530e-03, max_rank=86, #ifun_evals=1282593, #ffun_evals=0
+=amen_cross= swp=43, max_dx=2.318e-03, max_rank=88, #ifun_evals=1345449, #ffun_evals=0
+=amen_cross= swp=44, max_dx=1.192e-03, max_rank=89, #ifun_evals=1409105, #ffun_evals=0
+=amen_cross= swp=45, max_dx=9.772e-04, max_rank=91, #ifun_evals=1473593, #ffun_evals=0
+=amen_cross= swp=46, max_dx=8.519e-04, max_rank=91, #ifun_evals=1529089, #ffun_evals=0
+=amen_cross= swp=47, max_dx=9.685e-04, max_rank=91, #ifun_evals=1584417, #ffun_evals=0
+time/rank/memory for the FIO operator:
+Elapsed time is 13.431117 seconds.
+
+maxrank_A =
+
+    53
+
+
+memory_A =
+
+   4.0422e-04
+
+time/rank/memory for the matvec:
+Elapsed time is 0.070203 seconds.
+
+maxrank_c =
+
+   704
+
+
+memory_c =
+
+    0.0203
+
